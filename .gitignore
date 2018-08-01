@@ -2,9 +2,6 @@
 .Rhistory
 .Rapp.history
 
-# Session Data files
-*.RData
-
 # Example code in package build process
 *-Ex.R
 
@@ -22,7 +19,8 @@
 *.pdf
 
 # documentation
-./inst/doc
+inst/doc
+inst/
 
 # object c files
 *.o
